@@ -1,0 +1,39 @@
+{
+  "timestamp": "20250413_211321_540799",
+  "url": "https://api2.cursor.sh/auth/full_stripe_profile",
+  "method": "GET",
+  "request": {
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "authorization": "Bearer xxx-AUTH-TOKEN-xxx",
+      "x-new-onboarding-completed": "false",
+      "sec-ch-ua": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\"",
+      "sec-ch-ua-mobile": "?0",
+      "traceparent": "xxx-TRACE-ID-xxx",
+      "x-ghost-mode": "true",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cursor/0.48.8 Chrome/132.0.6834.210 Electron/34.3.4 Safari/537.36",
+      "accept": "*/*",
+      "origin": "vscode-file://vscode-app",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US",
+      "priority": "u=1, i"
+    },
+    "content": null
+  },
+  "response": {
+    "status_code": 200,
+    "headers": {
+      "date": "Sun, 13 Apr 2025 19:13:21 GMT",
+      "content-type": "text/plain; charset=utf-8",
+      "content-length": "50",
+      "vary": "Origin",
+      "access-control-allow-origin": "vscode-file://vscode-app",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "Grpc-Status, Grpc-Message, Grpc-Status-Details-Bin, Content-Encoding, Connect-Content-Encoding, traceparent, backend-traceparent, x-amzn-trace-id, x-request-id"
+    },
+    "content": "{\"membershipType\":\"free\",\"daysRemainingOnTrial\":0}"
+  }
+}

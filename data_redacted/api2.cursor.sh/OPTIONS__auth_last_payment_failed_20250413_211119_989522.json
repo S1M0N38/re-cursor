@@ -1,0 +1,35 @@
+{
+  "timestamp": "20250413_211119_989522",
+  "url": "https://api2.cursor.sh/auth/last_payment_failed",
+  "method": "OPTIONS",
+  "request": {
+    "headers": {
+      "accept": "*/*",
+      "access-control-request-method": "GET",
+      "access-control-request-headers": "authorization,traceparent,x-ghost-mode,x-new-onboarding-completed",
+      "origin": "vscode-file://vscode-app",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cursor/0.48.8 Chrome/132.0.6834.210 Electron/34.3.4 Safari/537.36",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US",
+      "priority": "u=1, i"
+    },
+    "content": null
+  },
+  "response": {
+    "status_code": 204,
+    "headers": {
+      "date": "Sun, 13 Apr 2025 19:11:19 GMT",
+      "vary": "Origin",
+      "access-control-allow-origin": "vscode-file://vscode-app",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "Grpc-Status, Grpc-Message, Grpc-Status-Details-Bin, Content-Encoding, Connect-Content-Encoding, traceparent, backend-traceparent, x-amzn-trace-id, x-request-id",
+      "access-control-allow-methods": "POST, GET, POST, GET, OPTIONS",
+      "access-control-allow-headers": "Content-Type, Connect-Protocol-Version, Connect-Timeout-Ms, Connect-Content-Encoding, Connect-Accept-Encoding, Content-Encoding, Accept-Encoding, Grpc-Message-Type, X-Grpc-Web, X-User-Agent, Grpc-Timeout, authorization, content-type, traceparent, backend-traceparent, x-amzn-trace-id, x-client-key, x-cursor-checksum, x-cursor-client-version, x-cursor-config-version, x-cursor-timezone, x-fs-client-key, x-ghost-mode, x-new-onboarding-completed, x-grpc-web, x-request-id, x-user-agent, x-market-client-id, vscode-sessionid, x-market-user-id, x-cursor-activity-id",
+      "access-control-max-age": "7200"
+    },
+    "content": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": "20250413_211321_334088",
+  "url": "https://api2.cursor.sh/aiserver.v1.AiService/CountTokens",
+  "method": "POST",
+  "request": {
+    "headers": {
+      "accept-encoding": "gzip",
+      "authorization": "Bearer xxx-AUTH-TOKEN-xxx",
+      "connect-protocol-version": "1",
+      "content-encoding": "gzip",
+      "content-type": "application/proto",
+      "cookie": "xxx-COOKIE-xxx",
+      "traceparent": "xxx-TRACE-ID-xxx",
+      "user-agent": "connect-es/1.6.1",
+      "x-client-key": "xxx-CLIENT-KEY-xxx",
+      "x-cursor-checksum": "xxx-CHECKSUM-xxx",
+      "x-cursor-client-version": "0.48.8",
+      "x-cursor-config-version": "xxx-CONFIG-VERSION-xxx",
+      "x-cursor-timezone": "Europe/Rome",
+      "x-ghost-mode": "true",
+      "x-new-onboarding-completed": "false",
+      "x-session-id": "xxx-SESSION-ID-xxx",
+      "Host": "api2.cursor.sh",
+      "Connection": "close",
+      "Transfer-Encoding": "chunked"
+    },
+    "content": "\n\ufffd\b\u0012\ufffd\b\nF/Users/simo/Developer/chat-completion-md/src/chat_completion_md/cli.py\u0012\ufffd\bimport sys\nfrom pathlib import Path\n\nfrom chat_completion_md import json_to_md, md_to_json\n\n\ndef main() -> None:\n    \"\"\"CLI entrypoint for chat-completion-md.\n\n    Convert between JSON and Markdown formats for chat completion requests:\n    - If input is a JSON file, outputs markdown to stdout\n    - If input is a Markdown file, outputs JSON to stdout\n    \"\"\"\n    if len(sys.argv) != 2:\n        print(\"Usage: chat_completion_md <file>\", file=sys.stderr)\n        sys.exit(1)\n\n    file_path = Path(sys.argv[1])\n    if not file_path.exists():\n        print(f\"Error: File {file_path} not found\", file=sys.stderr)\n        sys.exit(1)\n\n    try:\n        content = file_path.read_text()\n        if file_path.suffix == \".json\":\n            print(json_to_md(content))\n        elif file_path.suffix == \".md\":\n            print(md_to_json(content))\n        else:\n            print(f\"Error: Unsupported file type {file_path.suffix}\", file=sys.stderr)\n            sys.exit(1)\n    except Exception as e:\n        print(f\"Error: {str(e)}\", file=sys.stderr)\n        sys.exit(1)\n\u0012\u0007default"
+  },
+  "response": {
+    "status_code": 200,
+    "headers": {
+      "Date": "Sun, 13 Apr 2025 19:13:21 GMT",
+      "Content-Type": "application/proto",
+      "Content-Length": "82",
+      "Connection": "close",
+      "vary": "Origin",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "Grpc-Status, Grpc-Message, Grpc-Status-Details-Bin, Content-Encoding, Connect-Content-Encoding, traceparent, backend-traceparent, x-amzn-trace-id, x-request-id"
+    },
+    "content": "\b\ufffd\u0001\u0012M\nF/Users/simo/Developer/chat-completion-md/src/chat_completion_md/cli.py\u0010\ufffd\u0001\u0018#"
+  }
+}

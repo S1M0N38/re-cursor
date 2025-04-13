@@ -1,0 +1,44 @@
+{
+  "timestamp": "20250413_211321_326664",
+  "url": "https://api2.cursor.sh/aiserver.v1.AiService/AvailableModels",
+  "method": "POST",
+  "request": {
+    "headers": {
+      "accept-encoding": "gzip",
+      "authorization": "Bearer xxx-AUTH-TOKEN-xxx",
+      "connect-protocol-version": "1",
+      "content-type": "application/proto",
+      "cookie": "xxx-COOKIE-xxx",
+      "traceparent": "xxx-TRACE-ID-xxx",
+      "user-agent": "connect-es/1.6.1",
+      "x-amzn-trace-id": "xxx-TRACE-ID-xxx",
+      "x-client-key": "xxx-CLIENT-KEY-xxx",
+      "x-cursor-checksum": "xxx-CHECKSUM-xxx",
+      "x-cursor-client-version": "0.48.8",
+      "x-cursor-config-version": "xxx-CONFIG-VERSION-xxx",
+      "x-cursor-timezone": "Europe/Rome",
+      "x-ghost-mode": "true",
+      "x-new-onboarding-completed": "false",
+      "x-request-id": "xxx-REQUEST-ID-xxx",
+      "x-session-id": "xxx-SESSION-ID-xxx",
+      "Host": "api2.cursor.sh",
+      "Connection": "close",
+      "Transfer-Encoding": "chunked"
+    },
+    "content": null
+  },
+  "response": {
+    "status_code": 200,
+    "headers": {
+      "Date": "Sun, 13 Apr 2025 19:13:21 GMT",
+      "Content-Type": "application/proto",
+      "Content-Length": "676",
+      "Connection": "close",
+      "vary": "Origin",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "Grpc-Status, Grpc-Message, Grpc-Status-Details-Bin, Content-Encoding, Connect-Content-Encoding, traceparent, backend-traceparent, x-amzn-trace-id, x-request-id",
+      "content-encoding": "gzip"
+    },
+    "content": "\n\fcursor-small\n\u0005gpt-4\u0012\u0015\n\u0007default\u0010\u0001(\u00000\u0000H\u0000P\u0000X\u0000\u0012!\n\u0011claude-3.5-sonnet\u0010\u0001\u0018\u0000(\u00010\u0000H\u0000P\u0001X\u0000\u0012\ufffd\u0001\n\u0011claude-3.7-sonnet\u0010\u0001(\u00010\u0000B|\n&Faster, but less intelligent than MAX.\u0012RTurn on 'Auto-select' for a balanced experience, or use 'MAX' for best performanceH\u0000P\u0001X\u0000\u0012Z\n\u001aclaude-3.7-sonnet-thinking\u0010\u0001(\u00010\u0000B0\n\u001aLess intelligent than MAX.\u0012\u00102x fast requests\u0018\u0001H\u0001P\u0001X\u0000\u0012m\n\u0015claude-3.7-sonnet-max\u0010\u0001(\u00010\u0000BH\n Maximum intelligence and context\u0012\"$0.05 per request and per tool use\u0018\u0001H\u0000P\u0001X\u0000\u0012\ufffd\u0001\n\u001eclaude-3.7-sonnet-thinking-max\u0010\u0001(\u00010\u00009\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?BS\n+Maximum intelligence, context, and thinking\u0012\"$0.05 per request and per tool use\u0018\u0001H\u0001P\u0001X\u0000\u0012\u0011\n\u0005gpt-4(\u00000\u0000H\u0000P\u0001X\u0000\u0012\u0014\n\u0006gpt-4o\u0010\u0001(\u00010\u0000H\u0000P\u0001X\u0000\u0012;\n\u000fgpt-4.5-preview(\u00010\u00009\u0000\u0000\u0000\u0000\u0000\u0000\u0000@B\u0015\u0012\u000e$2 per request\u0018\u0001\"\u0001$H\u0000P\u0001X\u0000\u0012\u0019\n\rclaude-3-opus(\u00010\u0000H\u0000P\u0001X\u0000\u0012\u0017\n\u000bcursor-fast(\u00000\u0000H\u0000P\u0000X\u0000\u0012\u0018\n\fcursor-small(\u00000\u0000H\u0000P\u0000X\u0000\u0012\u0019\n\rgpt-3.5-turbo(\u00000\u0000H\u0000P\u0000X\u0000\u0012\"\n\u0016gpt-4-turbo-2024-04-09(\u00000\u0000H\u0000P\u0001X\u0000\u0012\u001b\n\u000bgpt-4o-128k\u0010\u0001\u0018\u0001(\u00010\u0000H\u0000P\u0001X\u0000\u0012%\n\u0015gemini-1.5-flash-500k\u0010\u0001\u0018\u0001(\u00000\u0000H\u0000P\u0000X\u0000\u0012#\n\u0013claude-3-haiku-200k\u0010\u0001\u0018\u0001(\u00010\u0000H\u0000P\u0001X\u0000\u0012&\n\u0016claude-3-5-sonnet-200k\u0010\u0001\u0018\u0001(\u00010\u0000H\u0000P\u0001X\u0000\u0012\u001b\n\u000bgpt-4o-mini\u0010\u0001\u0018\u0000(\u00000\u0000H\u0000P\u0001X\u0000\u0012\u0015\n\u0007o1-mini\u0018\u0000(\u00000\u0000H\u0001P\u0000X\u0000\u0012\u0018\n\no1-preview\u0018\u0000(\u00000\u0000H\u0001P\u0000X\u0000\u0012\u0012\n\u0002o1\u0010\u0001\u0018\u0000(\u00000\u0000H\u0001P\u0000X\u0000\u0012\u001e\n\u0010claude-3.5-haiku\u0018\u0000(\u00010\u0000H\u0000P\u0001X\u0000\u0012\u001e\n\u0012gemini-2.0-pro-exp(\u00000\u0000H\u0000P\u0000X\u0000\u0012&\n\u0018gemini-2.5-pro-exp-03-25\u0010\u0001(\u00010\u0000H\u0001P\u0001X\u0000\u0012s\n\u0012gemini-2.5-pro-max\u0010\u0001(\u00010\u00009\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?BH\n Maximum intelligence and context\u0012\"$0.05 per request and per tool use\u0018\u0001H\u0001P\u0001X\u0001\u0012)\n\u001dgemini-2.0-flash-thinking-exp(\u00000\u0000H\u0001P\u0000X\u0000\u0012\u001c\n\u0010gemini-2.0-flash(\u00000\u0000H\u0000P\u0000X\u0000\u0012\u0017\n\u000bdeepseek-v3(\u00010\u0000H\u0000P\u0000X\u0000\u0012\u0017\n\u000bdeepseek-r1(\u00000\u0000H\u0001P\u0000X\u0000\u0012\u0013\n\u0007o3-mini(\u00010\u0000H\u0001P\u0000X\u0000\u0012\u0012\n\u0006grok-2(\u00000\u0000H\u0000P\u0000X\u0000\u0012\u0019\n\rdeepseek-v3.1(\u00010\u0000H\u0000P\u0000X\u0000\u0012\u0017\n\u000bgrok-3-beta(\u00010\u0000H\u0000P\u0000X\u0000\u0012\u001c\n\u0010grok-3-mini-beta(\u00010\u0000H\u0000P\u0000X\u0000"
+  }
+}

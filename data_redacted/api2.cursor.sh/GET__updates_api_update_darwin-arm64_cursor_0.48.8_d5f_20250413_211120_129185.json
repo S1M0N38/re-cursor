@@ -1,0 +1,27 @@
+{
+  "timestamp": "20250413_211120_129185",
+  "url": "https://api2.cursor.sh/updates/api/update/darwin-arm64/cursor/0.48.8/xxx-HEX-xxx/stable",
+  "method": "GET",
+  "request": {
+    "headers": {
+      "sec-fetch-site": "none",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-dest": "empty",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cursor/0.48.8 Chrome/132.0.6834.210 Electron/34.3.4 Safari/537.36",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US",
+      "priority": "u=4, i"
+    },
+    "content": null
+  },
+  "response": {
+    "status_code": 204,
+    "headers": {
+      "date": "Sun, 13 Apr 2025 19:11:20 GMT",
+      "vary": "Origin",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "Grpc-Status, Grpc-Message, Grpc-Status-Details-Bin, Content-Encoding, Connect-Content-Encoding, traceparent, backend-traceparent, x-amzn-trace-id, x-request-id"
+    },
+    "content": null
+  }
+}

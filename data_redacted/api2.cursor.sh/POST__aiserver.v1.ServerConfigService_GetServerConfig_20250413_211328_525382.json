@@ -1,0 +1,41 @@
+{
+  "timestamp": "20250413_211328_525382",
+  "url": "https://api2.cursor.sh/aiserver.v1.ServerConfigService/GetServerConfig",
+  "method": "POST",
+  "request": {
+    "headers": {
+      "accept-encoding": "gzip",
+      "authorization": "Bearer xxx-AUTH-TOKEN-xxx",
+      "connect-protocol-version": "1",
+      "content-type": "application/proto",
+      "cookie": "xxx-COOKIE-xxx",
+      "traceparent": "xxx-TRACE-ID-xxx",
+      "user-agent": "connect-es/1.6.1",
+      "x-client-key": "xxx-CLIENT-KEY-xxx",
+      "x-cursor-checksum": "xxx-CHECKSUM-xxx",
+      "x-cursor-client-version": "0.48.8",
+      "x-cursor-config-version": "xxx-CONFIG-VERSION-xxx",
+      "x-cursor-timezone": "Europe/Rome",
+      "x-ghost-mode": "true",
+      "x-new-onboarding-completed": "false",
+      "x-session-id": "xxx-SESSION-ID-xxx",
+      "Host": "api2.cursor.sh",
+      "Connection": "close",
+      "Transfer-Encoding": "chunked"
+    },
+    "content": null
+  },
+  "response": {
+    "status_code": 200,
+    "headers": {
+      "Date": "Sun, 13 Apr 2025 19:13:28 GMT",
+      "Content-Type": "application/proto",
+      "Content-Length": "315",
+      "Connection": "close",
+      "vary": "Origin",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "Grpc-Status, Grpc-Message, Grpc-Status-Details-Bin, Content-Encoding, Connect-Content-Encoding, traceparent, backend-traceparent, x-amzn-trace-id, x-request-id"
+    },
+    "content": "\ng\n\u0000\u0012a\b\u0001\u0018\ufffd\ufffd\ufffd\u00010\ufffd\ufffd\u00078\ufffd\u000f@\ufffd\ufffd\u0001I\u0000\u0000\u0000\u0000@w+AP2X\ufffd\ufffd\u001e`\ufffd\u001fh\fp\ufffd\u0007x2\ufffd\u0001\u0000\ufffd\u0001&accounts/anysphere/models/bugbot-12-21\ufffd\u0001\ufffd\ufffd\u0006\ufffd\u0001\ufffd\ufffd[\u001a\u0000\u001a@\b\ufffd\u0002\u0010\ufffd\ufffd\u0006\u0018\u001e \u0014(\ufffdN0\ufffd\u0002@\u0001J+lezxVzZvAjMZMeI5HHo2cEtNu2wIsLobDGA4hBEWelA\"H\t\u0000\u0000\u0000\u0000\u0000\u0000\ufffd?\u0011-C\u001c\ufffd\ufffd6\u001a?\u0019\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?!\u0000\u0000\u0000\u0000\u0000\u0000\ufffd?)\u0000\u0000\u0000\u0000\u0000\u0000$@1\u0000\u0000\u0000\u0000\u0000\u0000Y@9\ufffd\ufffd\ufffd\ufffdMbP?A\ufffd\ufffd\ufffd\ufffdMbP?*\f\u0010\ufffd\ufffd\u0001 \ufffd\ufffd\u0001(P0(2$xxx-UUID-xxxB\u0000J\u0004\u0010\u0001\u0018\u0001R\u0000Z\u0006\u0010\u0001\u0018\u0001 \u0001"
+  }
+}

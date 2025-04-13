@@ -1,0 +1,43 @@
+{
+  "timestamp": "20250413_211121_407451",
+  "url": "https://api2.cursor.sh/aiserver.v1.AiService/GetDefaultModelNudgeData",
+  "method": "POST",
+  "request": {
+    "headers": {
+      "accept-encoding": "gzip",
+      "authorization": "Bearer xxx-AUTH-TOKEN-xxx",
+      "connect-protocol-version": "1",
+      "content-type": "application/proto",
+      "cookie": "xxx-COOKIE-xxx",
+      "traceparent": "xxx-TRACE-ID-xxx",
+      "user-agent": "connect-es/1.6.1",
+      "x-amzn-trace-id": "xxx-TRACE-ID-xxx",
+      "x-client-key": "xxx-CLIENT-KEY-xxx",
+      "x-cursor-checksum": "xxx-CHECKSUM-xxx",
+      "x-cursor-client-version": "0.48.8",
+      "x-cursor-config-version": "xxx-CONFIG-VERSION-xxx",
+      "x-cursor-timezone": "Europe/Rome",
+      "x-ghost-mode": "true",
+      "x-new-onboarding-completed": "false",
+      "x-request-id": "xxx-REQUEST-ID-xxx",
+      "x-session-id": "xxx-SESSION-ID-xxx",
+      "Host": "api2.cursor.sh",
+      "Connection": "close",
+      "Transfer-Encoding": "chunked"
+    },
+    "content": null
+  },
+  "response": {
+    "status_code": 200,
+    "headers": {
+      "Date": "Sun, 13 Apr 2025 19:11:21 GMT",
+      "Content-Type": "application/proto",
+      "Content-Length": "350",
+      "Connection": "close",
+      "vary": "Origin",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "Grpc-Status, Grpc-Message, Grpc-Status-Details-Bin, Content-Encoding, Connect-Content-Encoding, traceparent, backend-traceparent, x-amzn-trace-id, x-request-id"
+    },
+    "content": "\n\r1744357405447\u001a\u001eclaude-3.7-sonnet-thinking-max\u001a\u0015claude-3.7-sonnet-max\u001a\u0012gemini-2.5-pro-max\u001a\u001cgemini-2.5-pro-exp-03-25-max\u001a\u0018gemini-2.5-pro-exp-03-25\u001a\u001dgemini-2.0-flash-thinking-exp\u001a\u0012gemini-2.0-pro-exp\u001a\u0010gemini-2.0-flash\u001a\u0006gpt-4o\u001a\u000fgpt-4.5-preview\u001a\u000bgpt-4o-mini\u001a\u0007o3-mini\u001a\u0002o1\u001a\u0002o3\u001a\no1-preview\u001a\u0007o1-mini\u001a\u0010claude-3.5-haiku\u001a\u000bdeepseek-v3\u001a\rdeepseek-v3.1\u001a\u000bdeepseek-r1"
+  }
+}
