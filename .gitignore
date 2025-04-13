@@ -176,3 +176,9 @@ data/default.exp-tas.com
 data/marketplace.cursorapi.com
 data/mobile.events.data.microsoft.com
 data/www.vscode-unpkg.net
+data
+data_redacted/default.exp-tas.com
+data_redacted/main.vscode-cdn.net
+data_redacted/marketplace.cursorapi.com
+data_redacted/mobile.events.data.microsoft.com
+data_redacted/www.vscode-unpkg.net
