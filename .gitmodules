@@ -1,0 +1,3 @@
+[submodule "chat-completion-md"]
+	path = chat-completion-md
+	url = https://github.com/S1M0N38/chat-completion-md
