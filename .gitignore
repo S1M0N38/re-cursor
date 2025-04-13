@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+data/default.exp-tas.com
+data/marketplace.cursorapi.com
+data/mobile.events.data.microsoft.com
+data/www.vscode-unpkg.net
