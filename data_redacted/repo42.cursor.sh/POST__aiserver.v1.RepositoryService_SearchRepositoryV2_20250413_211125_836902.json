@@ -1,0 +1,44 @@
+{
+  "timestamp": "20250413_211125_836902",
+  "url": "https://repo42.cursor.sh/aiserver.v1.RepositoryService/SearchRepositoryV2",
+  "method": "POST",
+  "request": {
+    "headers": {
+      "accept-encoding": "gzip",
+      "authorization": "Bearer xxx-AUTH-TOKEN-xxx",
+      "connect-protocol-version": "1",
+      "content-type": "application/proto",
+      "cookie": "xxx-COOKIE-xxx",
+      "traceparent": "xxx-TRACE-ID-xxx",
+      "user-agent": "connect-es/1.6.1",
+      "x-amzn-trace-id": "xxx-TRACE-ID-xxx",
+      "x-client-key": "xxx-CLIENT-KEY-xxx",
+      "x-cursor-checksum": "xxx-CHECKSUM-xxx",
+      "x-cursor-client-version": "0.48.8",
+      "x-cursor-config-version": "xxx-CONFIG-VERSION-xxx",
+      "x-cursor-timezone": "Europe/Rome",
+      "x-ghost-mode": "true",
+      "x-new-onboarding-completed": "false",
+      "x-request-id": "xxx-REQUEST-ID-xxx",
+      "x-session-id": "xxx-SESSION-ID-xxx",
+      "Host": "repo42.cursor.sh",
+      "Connection": "close",
+      "Transfer-Encoding": "chunked"
+    },
+    "content": "\n\ufffd\u0001what's a good question to ask about this codebase? it should be something specific, like \"where is X defined and how is it being used\"\u0012m\n\u0001.\"$xxx-UUID-xxx*&github|user_01JK0BW384FHMS4HF6VRNES5CGI\ufffd[tE\ufffd*:CP\u0000Z\u000f[object Object]\u0018d:7{*.,*.-QDVGy8KESpzGw,*.V5b9XRMUHGPCnQ,*.CSE37_WeknJSaQ}"
+  },
+  "response": {
+    "status_code": 200,
+    "headers": {
+      "Date": "Sun, 13 Apr 2025 19:11:25 GMT",
+      "Content-Type": "application/proto",
+      "Content-Length": "584",
+      "Connection": "close",
+      "vary": "Origin",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "Grpc-Status, Grpc-Message, Grpc-Status-Details-Bin, Content-Encoding, Connect-Content-Encoding, traceparent, backend-traceparent, x-amzn-trace-id, x-request-id",
+      "content-encoding": "gzip"
+    },
+    "content": "\nV\nO\n=./WoWiMXsIstTeS-DWdQg47nL_/1X7-xg-O22P12OrUKaY.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u000b\u0010\"\u0012\u0004\b\u0012\u0010\u0016*\u0000\u0015j\ufffd\ufffd=\nQ\nJ\n8./WoWiMXsIstTeS-DWdQg47nL_/2FvUjplUB404gQ.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u0001\u0010\u0001\u0012\u0004\b\u001b\u0010 *\u0000\u0015h\ufffd\ufffd=\n=\n6\n$./eYHKKPQybQAB4phwt4o.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u0001\u0010\u0001\u0012\u0004\b\u000e\u0010\f*\u0000\u0015#*\ufffd=\nV\nO\n=./WoWiMXsIstTeS-DWdQg47nL_/1X7-xg-O22P12OrUKaY.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u0001\u0010\u0001\u0012\u0004\b\u000b\u0010\"*\u0000\u0015(\ufffd\ufffd=\nQ\nJ\n8./WoWiMXsIstTeS-DWdQg47nL_/ZVuTkdBP1S0H5g.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u0001\u0010\u0001\u0012\u0004\b\n\u0010+*\u0000\u0015!b\ufffd=\nQ\nJ\n8./WoWiMXsIstTeS-DWdQg47nL_/ZVuTkdBP1S0H5g.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\n\u0010+\u0012\u0004\b\u000f\u0010+*\u0000\u0015B\u0003\ufffd=\nQ\nJ\n8./WoWiMXsIstTeS-DWdQg47nL_/2FvUjplUB404gQ.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b0\u0010(\u0012\u0004\b5\u0010J*\u0000\u0015\u001fy\ufffd=\nQ\nJ\n8./WoWiMXsIstTeS-DWdQg47nL_/ZVuTkdBP1S0H5g.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u001a\u00100\u0012\u0004\b\"\u00102*\u0000\u0015\ufffd!\ufffd=\nV\nO\n=./WoWiMXsIstTeS-DWdQg47nL_/PlvzqtZ1b88SCaG9_U0.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u000e\u0010\t\u0012\u0004\b\u0015\u0010\u001f*\u0000\u0015\ufffdl\ufffd=\nV\nO\n=./WoWiMXsIstTeS-DWdQg47nL_/x5ikOMscjFmBNphVnic.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u0001\u0010\u0001\u0012\u0004\b\u000f\u0010\u0002*\u0000\u0015\ufffdg\ufffd=\nV\nO\n=./WoWiMXsIstTeS-DWdQg47nL_/GINNJGL7vPbYhDtop7o.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u0001\u0010\u0001\u0012\u0004\bG\u0010\u001b*\u0000\u0015\ufffdo\ufffd=\nQ\nJ\n8./WoWiMXsIstTeS-DWdQg47nL_/2FvUjplUB404gQ.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b5\u0010J\u0012\u0004\b=\u0010\u0006*\u0000\u0015\u0013\f\ufffd=\nV\nO\n=./WoWiMXsIstTeS-DWdQg47nL_/PlvzqtZ1b88SCaG9_U0.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u0001\u0010\u0001\u0012\u0004\b\n\u0010\u0018*\u0000\u0015\ufffd\ufffd=\nQ\nJ\n8./WoWiMXsIstTeS-DWdQg47nL_/ZVuTkdBP1S0H5g.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u000f\u0010+\u0012\u0004\b\u001a\u00100*\u0000\u0015D\ufffd\ufffd=\nQ\nJ\n8./WoWiMXsIstTeS-DWdQg47nL_/2FvUjplUB404gQ.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\u001b\u0010 \u0012\u0004\b#\u0010\"*\u0000\u0015z\ufffd\ufffd=\nV\nO\n=./WoWiMXsIstTeS-DWdQg47nL_/PlvzqtZ1b88SCaG9_U0.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b\n\u0010\u0018\u0012\u0004\b\u000e\u0010\t*\u0000\u0015\ufffdK\ufffd=\nQ\nJ\n8./WoWiMXsIstTeS-DWdQg47nL_/2FvUjplUB404gQ.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b#\u0010\"\u0012\u0004\b+\u0010B*\u0000\u0015\ufffd\ufffd\ufffd=\nf\n_\n=./WoWiMXsIstTeS-DWdQg47nL_/GINNJGL7vPbYhDtop7o.V5b9XRMUHGPCnQ\u001a\f\n\u0004\bG\u0010\u001b\u0012\u0004\bL\u00101*\u0010\n\u000e\n\u0004\b\u001c\u0010\u0001\u0012\u0006\b\u001e\u0010\ufffd\ufffd\u0006\u0015\ufffd\u0003\ufffd=\nN\nG\n=./WoWiMXsIstTeS-DWdQg47nL_/oR45LDbVk8jQmwsHGfw.V5b9XRMUHGPCnQ\u001a\u0004\n\u0000\u0012\u0000*\u0000\u0015\ufffdf=\nQ\nJ\n8./WoWiMXsIstTeS-DWdQg47nL_/2FvUjplUB404gQ.V5b9XRMUHGPCnQ\u001a\f\n\u0004\b+\u0010B\u0012\u0004\b0\u0010(*\u0000\u0015P\u0017Y=\nV\nO\n=./WoWiMXsIstTeS-DWdQg47nL_/GINNJGL7vPbYhDtop7o.V5b9XRMUHGPCnQ\u001a\f\n\u0004\bL\u00101\u0012\u0004\bP\u0010!*\u0000\u0015s\u0002D="
+  }
+}
