@@ -1,5 +1,11 @@
 # re-cursor
 
+
+
+https://github.com/user-attachments/assets/9cd60104-45e9-4e52-9e7d-1378615d3f5d
+
+
+
 A toolkit for reverse engineering, analyzing, and understanding API requests made by Cursor and similar AI code assistants.
 
 ## Overview
